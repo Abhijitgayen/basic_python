@@ -13,7 +13,7 @@ print(str1[ : : ])# this is same as print(str1[: : 1]) and porint(str1 [0:len(st
 print( str1[ : : 2]) # it delete  one element in the string i.e str1[1], str[3], str[5], str[7]
 print(str1[ : : 3])# it delete two elements scuch that str1[1:3],str1[4:6].....
 reverse_str1=str1[ : : -1]
-print( "Reverse of the given tree is :",reverse_str1)
+print( "Reverse of the given string is :",reverse_str1)
 print(str1[-4:-1])
 # 0   1    2    3   4   5   6    7   8   9   10   11   12   13   14   
 # t   h    i      s        i    s          A   b   h    i      j      i         t       
