@@ -4,8 +4,8 @@ print(myList[5])# using index we able to find the exactly the string
 myNumber=[12,15,14,1,2,3,-50,158,123,12]#a list contains more than one data type
 print("my list is ",myNumber)
 print("max in list ",max(myNumber),"\nmin of this list is ", min(myNumber))#we able to apply min() ,max() function if 
-#the list contains same data type.
-myNumber.sort()
+#the list contains same data type.it is working for number s
+myNumber.sort()#it is ran on same data types and also ran for each cases
 print("my list after sorting",myNumber)
 myNumber.reverse ()
 print("After reversing this myList is :",myNumber)
