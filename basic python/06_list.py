@@ -15,7 +15,7 @@ myNumber.append( 123)# add this number in the end of this list
 print(myNumber)
 myNumber.insert( 0,156)# insert the elemt at the position of index 0
 print(" Insert element in this list we get",myNumber)
-myNumber.remove(1)
+myNumber.remove(1)#myNumber.remove(name_data_for_delete)
 print("after removing the element  1 in list ", myNumber)
 myNumber.pop()#remove the last element of this list
 # Mutable --can change
