@@ -1,7 +1,7 @@
 myList=["it","is","see","now","by","abhijit", "gayen","ram","shyam",12] # in my list i will be able to store  string,integer, floating point,
 print(myList)
 print(myList[5])# using index we able to find the exactly the string
-myNumber=[12,15,14,1,2,3,-50,158,123,12]
+myNumber=[12,15,14,1,2,3,-50,158,123,12]#a list contains more than one data type
 print("my list is ",myNumber)
 print("max in list ",max(myNumber),"\nmin of this list is ", min(myNumber))
 myNumber.sort()
