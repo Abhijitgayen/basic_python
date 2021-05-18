@@ -13,6 +13,10 @@ print(myNumber[1:6])
 print(myNumber[ : : -1])# we see allthing in the string
 myNumber.append( 123)# add this number in the end of this list
 print(myNumber)
+#there are another way to concate two list directly
+Numberlis=['tygh',5,6,78,390]
+myNumber.extend(Numberlis)
+print(myNumber)
 myNumber.insert( 0,156)# insert the elemt at the position of index 0
 print(" Insert element in this list we get",myNumber)
 myNumber.remove(1)#myNumber.remove(name_data_for_delete)
