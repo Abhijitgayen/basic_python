@@ -16,7 +16,7 @@ print(myNumber)
 #there are another way to concate two list directly
 Numberlis=['tygh',5,6,78,390]
 myNumber.extend(Numberlis)
-print(myNumber)
+print('After extend the new list is',myNumber)
 myNumber.insert( 0,156)# insert the elemt at the position of index 0
 print(" Insert element in this list we get",myNumber)
 myNumber.remove(1)#myNumber.remove(name_data_for_delete)
