@@ -21,9 +21,14 @@ myNumber.insert( 0,156)# insert the elemt at the position of index 0
 print(" Insert element in this list we get",myNumber)
 myNumber.remove(1)#myNumber.remove(name_data_for_delete)
 print("after removing the element  1 in list ", myNumber)
-myNumber.pop()#remove the last element of this list
+#remove the last element of this list
+#it also return the pop elements
+Print('pop element is', myNumber.pop())
 # Mutable --can change
-#Immutable --Cannot change
+# Immutable --Cannot change
+
+#all things in list and tuple are same.all property are same
+#in tuple you are not able to change data in list directly .
 tp=(1,45,12)
 print(tp)
 # tp[0]=12 not ran rhis portion because this is a immutable
