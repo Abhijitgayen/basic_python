@@ -29,6 +29,7 @@ Print('pop element is', myNumber.pop())
 
 #all things in list and tuple are same.all property are same
 #in tuple you are not able to change data in list directly .
+#there are two function i.e tp.count() and tp.index()
 tp=(1,45,12)
 print(tp)
 # tp[0]=12 not ran rhis portion because this is a immutable
